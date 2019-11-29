@@ -1,17 +1,99 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>First HTML doc</title>
-      <meta charset = "utf-8">
-      <style>
-        #hello_world{
-          background-color:orange;
-          }
-        
-      </style>
-    </head>
-    <body>
-      <h1 id="hello_world"> Hello World</h1>
-    </body>
-  </html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>J's first attempt</title>
+  <style>
+    #page_title{
+      color:white;
+      background-color:orange;
+      text-align:center;
+      
+    }
+    
+    #blog_title{
+      text-align:center;
+      color:blue;
+      width:33%;
+      margin:auto;
+      background-color: rgb(155,155,155)
+       
+    }
+    
+    .blog_post{
+      background-color:grey;
+    }
    
+    a:hover{
+       background-color: purple;
+    }
+    
+    a:visited{
+      color:red;
+    }
+    
+    #footer{
+      background-color:green;
+      color:white;
+      
+    }
+  
+  </style>
+</head>
+<body>
+  <h1 id="page_title">Hello World!</h1>
+  <h2> This will be my first attempt at a blog. Here we go.</h2>
+  <h2 id="blog_title"> J's Blog</h2>
+      <h4> Table of contents
+        <ol>
+          <li><a href="#post3"> 20191129</a></li>
+          <li><a href="#post2"> 20191128</a></li>
+          <li><a href="#post1"> 20191127</a></li>
+          <li><a href="footer"> Bottom</a> of the page</li>
+        </ol>
+            
+    <h3 class = "blog_post" id="post3"> 20191129
+      <ul>
+        <li> today i did something</li>
+        <li> i did something else as well</li>
+        <li> i'm mainly trying to get more lines in so I will have to use a scroll bar
+          so i can use the table of contents</li>
+        <li> the last thing</li>
+      </ul>
+              
+    </h3>
+   
+    <h3 class = "blog_post" id = "post2"> 20191128
+      <ul>
+        <li>Same thing as the first day</li>
+        <li> Just the same ol' stuff</li>
+        <li> think I'll wrap it up now</li>
+      </ul>
+            </h3>
+            
+    <h3 class = "blog_post" id = "post1"> 20191127
+      <ul>
+        <li> The thing I did the first day</li>
+        <li> It's just a bunch of things</li>
+      </ul>
+          </h3>
+          
+          
+          
+    <h5 class="footer" id="footer">
+      <p> We'll try to keep this footer small and out of the way</p>
+          </h5>
+    
+         
+            
+            
+            
+            
+            
+            
+            
+            
+
+</body>
+</html>
